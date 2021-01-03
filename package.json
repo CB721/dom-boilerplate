@@ -1,0 +1,19 @@
+{
+  "name": "dom-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CB721/dom-boilerplate.git"
+  },
+  "author": "clint brodar <clintbrodar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CB721/dom-boilerplate/issues"
+  },
+  "homepage": "https://github.com/CB721/dom-boilerplate#readme"
+}
