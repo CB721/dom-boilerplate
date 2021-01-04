@@ -55,7 +55,6 @@ function POST(url, options) {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
             'X-Requested-With': 'XMLHttpRequest',
-            'X-CSRF-Token': Rails.csrfToken()
         },
         credentials: 'same-origin',
     }, options));
@@ -68,7 +67,7 @@ function PATCH(url, options) {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
             'X-Requested-With': 'XMLHttpRequest',
-            'X-CSRF-Token': Rails.csrfToken()
+            
         },
         credentials: 'same-origin',
     }, options));
@@ -81,7 +80,6 @@ function DELETE(url, options) {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
             'X-Requested-With': 'XMLHttpRequest',
-            'X-CSRF-Token': Rails.csrfToken()
         },
         credentials: 'same-origin',
     }, options));
@@ -97,7 +95,6 @@ function GET(url, options) {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
             'X-Requested-With': 'XMLHttpRequest',
-            'X-CSRF-Token': Rails.csrfToken()
         }, headers),
         credentials: 'same-origin',
     }, options));
